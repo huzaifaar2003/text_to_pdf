@@ -25,6 +25,10 @@ print(file_contents)
 #    #pdf.cell(w=0, h=60, txt = str())
 if os.path.isdir("PDFs") == False:
     os.mkdir("PDFs")
+
+# to create individual PDFs, the pdf initialization and final output have to placed
+# in the for loop
+
 pdf = fpdf.FPDF(orientation="P", unit="mm", format="A4")
 
 for i in range(0,4):
