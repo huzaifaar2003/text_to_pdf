@@ -23,6 +23,8 @@ print(file_contents)
 #    pdf.set_font(family="Times", style= "b", size = 20)
 #    pdf.cell(w=0, h=20, txt=str(filename).title(), align="L", ln=1)
 #    #pdf.cell(w=0, h=60, txt = str())
+
+
 if os.path.isdir("PDFs") == False:
     os.mkdir("PDFs")
 
